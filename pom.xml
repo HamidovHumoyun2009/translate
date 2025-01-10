@@ -54,15 +54,16 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <finalName>paraphrase_bot</finalName>
+                    <finalName>tg_bot</finalName>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
                     <transformers>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                            <mainClass>uz.pdp.Main</mainClass>
+                            <mainClass>com.company.Main</mainClass>
                         </transformer>
                     </transformers>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>
